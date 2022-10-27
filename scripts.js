@@ -3,10 +3,16 @@ var boolVar2 = false;
 var boolVar3 = false;
 var boolVar4 = false;
 
+var media = window.matchMedia("(max-width: 680px)")
+
 function circle1Clicked(){
     this.boolVar1 = true;
     var arr1 = document.getElementById("arrow1");
-    var position1 = 1000;
+    if(media.matches){
+        var position1 = 130;
+    }else{
+        var position1 = 1000;
+    }
     var moving1 = setInterval(move1, 0);
 
     function move1(){
@@ -38,7 +44,11 @@ function circle1Clicked(){
 function circle2Clicked(){
     this.boolVar2 = true;
     var arr2 = document.getElementById("arrow2");
-    var position2 = 1000;
+    if(media.matches){
+        var position2 = 130;
+    }else{
+        var position2 = 1000;
+    }
     var moving2 = setInterval(move2, 0);
 
     function move2(){
@@ -69,7 +79,11 @@ function circle2Clicked(){
 function circle3Clicked(){
     this.boolVar3 = true;
     var arr3 = document.getElementById("arrow3");
-    var position3 = 1000;
+    if(media.matches){
+        var position3 = 130;
+    }else{
+        var position3 = 1000;
+    }
     var moving3 = setInterval(move3, 0);
 
     function move3(){
@@ -101,7 +115,11 @@ function circle3Clicked(){
 function circle4Clicked(){
     this.boolVar4 = true;
     var arr4 = document.getElementById("arrow4");
-    var position4 = 1000;
+    if(media.matches){
+        var position4 = 130;
+    }else{
+        var position4 = 1000;
+    }
     var moving4 = setInterval(move4, 0);
 
     function move4(){

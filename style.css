@@ -141,32 +141,32 @@
     transform: translateY(10px);
 }
 
-@media screen and (max-width:10px) {
-    .circle1{
+@media screen and (max-width:680px) {
+    #circle1{
         height: 80px;
         width: 80px;
-        margin-top: 15px;
+        margin-top: 100px;
         cursor: pointer;
       }
       
       #circle2{
           height: 80px;
           width: 80px;
-          margin-top: 30px;
+          margin-top: 100px;
           cursor: pointer;
         }
       
         #circle3{
           height: 80px;
           width: 80px;
-          margin-top: 30px;
+          margin-top: 100px;
           cursor: pointer;
         }
       
         #circle4{
           height: 80px;
           width: 80px;
-          margin-top: 30px;
+          margin-top: 100px;
           cursor: pointer;
         }
 
@@ -174,22 +174,27 @@
             font-size: 30px;
             color: black;
             margin-left: auto;
+            transform: translateY(50px);
         }
         #arrow2{
             font-size: 30px;
             color: black;
             margin-left: auto;
+            transform: translateY(50px);
         }
         #arrow3{
             font-size: 30px;
             color: black;
             margin-left: auto;
+            transform: translateY(50px);
         }
         #arrow4{
             font-size: 30px;
             color: black;
             margin-left: auto;
+            transform: translateY(50px);
         }
+        
 }
 
 
